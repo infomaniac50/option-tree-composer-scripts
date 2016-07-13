@@ -4,21 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "9659d1289cbc4daf6dd006a536b1a66a",
-    "content-hash": "bf8cd2f9bd83213915101e5c0f1ed952",
+    "hash": "36880ba6aa348a84871892dde9a87839",
+    "content-hash": "442e3a2952046299e10d475747825bb1",
     "packages": [
         {
             "name": "valendesigns/option-tree",
-            "version": "v2.6.0",
+            "version": "dev-hotfix-2.6.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/valendesigns/option-tree.git",
-                "reference": "1f65d8000e608a3e36cebb5a4071a88fde809907"
+                "url": "https://github.com/infomaniac50/option-tree.git",
+                "reference": "bae7c4e1c6d27857026257cee4923c76858e325e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/valendesigns/option-tree/zipball/1f65d8000e608a3e36cebb5a4071a88fde809907",
-                "reference": "1f65d8000e608a3e36cebb5a4071a88fde809907",
+                "url": "https://api.github.com/repos/infomaniac50/option-tree/zipball/bae7c4e1c6d27857026257cee4923c76858e325e",
+                "reference": "bae7c4e1c6d27857026257cee4923c76858e325e",
                 "shasum": ""
             },
             "type": "library",
@@ -27,7 +27,6 @@
                     "ot-loader.php"
                 ]
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPLv3"
             ],
@@ -41,7 +40,10 @@
             ],
             "description": "Theme Options UI Builder for WordPress.",
             "homepage": "https://github.com/valendesigns/option-tree",
-            "time": "2016-02-10 06:25:31"
+            "support": {
+                "source": "https://github.com/infomaniac50/option-tree/tree/hotfix-2.6.1"
+            },
+            "time": "2016-07-13 19:22:15"
         }
     ],
     "packages-dev": [
@@ -162,7 +164,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "valendesigns/option-tree": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
