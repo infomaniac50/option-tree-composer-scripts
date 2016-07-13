@@ -1,13 +1,17 @@
 {
     "name": "infomaniac50/option-tree-test",
-    "require": {
-        "valendesigns/option-tree": "2.*"
-    },
     "license": "GPL",
     "authors": [
         {
             "name": "Derek Chafin",
             "email": "infomaniac50@gmail.com"
         }
-    ]
+    ],
+    "require": {
+        "valendesigns/option-tree": "2.*"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^2.6",
+        "wp-coding-standards/wpcs": "^0.9"
+    }
 }
