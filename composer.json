@@ -7,8 +7,14 @@
             "email": "infomaniac50@gmail.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "git@github.com:infomaniac50/option-tree"
+        }
+    ],
     "require": {
-        "valendesigns/option-tree": "2.*"
+        "valendesigns/option-tree": "dev-hotfix-2.6.1"
     },
     "require-dev": {
         "squizlabs/php_codesniffer": "^2.6",
